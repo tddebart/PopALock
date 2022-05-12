@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PopALock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<div>
+    <div class="lock-top">
+        <p class="startText">Press space or click to start</p>
+        <div class="round">
+            <div class="pointsText">
+                <p id="pointsText">0</p>
+                <span class="material-symbols-outlined" style="font-size:30rem">
+                    play_arrow
+                </span>
+            </div>
+            
+            <div class="handle">
+                <div class="endPos"></div>
+            </div>
+            <div class="handle">
+                <div class="handle-child"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="highScoreList">
+    <p class="highScoreText">High Scores</p>
+    <ul style="list-style: numeric;" id="highScoreList" >
+        <li>
+            <p class="highScoreName">Name</p>
+            <p class="highScorePoints">Points</p>
+        </li>
+        <li>
+            <p class="highScoreName">Name</p>
+            <p class="highScorePoints">Points</p>
+        </li>
+        <li>
+            <p class="highScoreName">Name</p>
+            <p class="highScorePoints">Points</p>
+        </li>
+    </ul>
+</div>
+
+<a href="https://github.com/tddebart/PopALock" target="_blank" class="github"><img class="github" src="GitHub-Mark.png" alt="GitHub Logo"></a>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
